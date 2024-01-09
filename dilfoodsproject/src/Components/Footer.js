@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer class="py-1 bg-red-300 text-black relative inset-x-0 bottom-0 ">
-      <div class="container px-6 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50">
+    <footer class="py-1 bg-white text-black relative inset-x-0 bottom-0 ">
+      <div class="container px-8 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50">
         <div class="grid justify-center  lg:justify-between">
           <div class="flex flex-col self-center text-sm text-center md:block lg:col-start-1 md:space-x-6">
             <span>Copyright © 2023 XYZ</span>
@@ -19,7 +19,7 @@ function Footer() {
               rel="noopener noreferrer"
               href="#"
               title="Email"
-              class="flex items-center justify-center w-10 h-10 rounded-full bg-red-500 hover:bg-red-600 duration-150 text-white"
+              class="flex items-center justify-center w-8 h-8 rounded-full bg-red-500 hover:bg-red-600 duration-150 text-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ function Footer() {
               rel="noopener noreferrer"
               href="#"
               title="Twitter"
-              class="flex items-center justify-center w-10 h-10 rounded-full bg-red-500 hover:bg-red-600 duration-150 text-white"
+              class="flex items-center justify-center w-8 h-8 rounded-full bg-red-500 hover:bg-red-600 duration-150 text-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ function Footer() {
               rel="noopener noreferrer"
               href="#"
               title="GitHub"
-              class="flex items-center justify-center w-10 h-10 rounded-full bg-red-500 hover:bg-red-600 duration-150 text-white"
+              class="flex items-center justify-center w-8 h-8  rounded-full bg-red-500 hover:bg-red-600 duration-150 text-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

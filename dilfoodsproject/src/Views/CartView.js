@@ -3,6 +3,7 @@ import CartProduct from '../Components/CartProduct';
 import { FoodContext } from '../App';
 import Data from '../JSONData/data.json';
 import { Link } from 'react-router-dom';
+import EmptyCartImg from '../ImageRecources/EmptyCartImage.png';
 function CartView(props) {
   const { cart } = useContext(FoodContext);
   let totalPrice = 0;
@@ -11,17 +12,14 @@ function CartView(props) {
   const EmptyCart = (
     <>
       <h1 class="mb-10 text-center text-2xl font-bold">Cart Empty</h1>
-      <div className='container flex justify-center'>
-        <img
-          src="https://i.pinimg.com/564x/2e/ac/fa/2eacfa305d7715bdcd86bb4956209038.jpg"
-          className="w-1/2 rounded-lg "
-        />
+      <div className="container flex justify-center ">
+        <img src={EmptyCartImg} className="sm:h-40 lg:h-96 w-auto rounded-lg mb-5 " />
       </div>
       {/* Image taken from pinterest */}
     </>
   );
   const fullCart = (
-    <div className=''>
+    <div className="">
       <h1 class="mb-10 text-center text-2xl font-bold">Cart Items</h1>
       <div class="mx-auto max-w-5xl justify-center px-6 md:flex md:space-x-6 xl:px-0">
         <div class="rounded-lg md:w-2/3">
@@ -69,7 +67,7 @@ function CartView(props) {
             </div>
           </div>
           <Link to="/Payment">
-            <button class="mt-6 w-full rounded-md bg-blue-500 py-1.5 font-medium text-blue-50 hover:bg-blue-600">
+            <button class="mt-6 w-full rounded-md bg-red-500 py-1.5 font-medium text-blue-50 hover:bg-red-600">
               Check out
             </button>
           </Link>

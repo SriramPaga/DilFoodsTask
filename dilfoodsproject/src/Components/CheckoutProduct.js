@@ -20,7 +20,7 @@ function CheckoutProduct(props) {
     <>
       <div class="justify-between mb-1 rounded-lg bg-white p-6 shadow-md sm:flex sm:justify-start">
         <img
-          src="https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          src={foodData.image}
           alt="product-image"
           class=" rounded-lg sm:h-20 lg:w-40"
         />

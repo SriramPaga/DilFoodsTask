@@ -59,8 +59,8 @@ function App() {
           <NavHeader />
           <Routes>
            
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/Home" element={<LandingPage />} />
+            <Route path="/" element={<ProductsPage />} />
+            <Route path="/Home" element={<ProductsPage />} />
             <Route path="/Products" element={<ProductsPage />} />
             <Route path="/cart" element={<CartView />} />
            

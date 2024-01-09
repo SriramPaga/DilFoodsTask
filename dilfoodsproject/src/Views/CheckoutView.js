@@ -13,7 +13,7 @@ function CheckoutView() {
   let totalPrice = 0;
   const shippingCost = 5;
   const displayDivision = (
-    <div className="h-full  bg-red-400 p-2 ">
+    <div className="h-full  bg-red-400 p-2 rounded-l-md ">
       {cart.map((item, index) => {
         let foodData;
         {
