@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "productName": "Masala Dosa",
+      "productDescription": "A crispy, savory crepe made from fermented rice and lentil batter, filled with a spicy potato and onion mixture. Served with sambar and coconut chutney.",
+      "price": 120,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "productName": "Chicken Tikka Masala",
+      "productDescription": "Tender pieces of chicken marinated in yogurt and spices, grilled in a tandoor oven, and then simmered in a creamy tomato sauce.",
+      "price": 250,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "productName": "Palak Paneer",
+      "productDescription": "A rich and flavorful curry made with  spinach, paneer (Indian cheese), and a blend of aromatic spices.",
+      "price": 180,
+      "rating": 4.9
+    },
+    {
+      "id": 4,
+      "productName": "Dal Makhani",
+      "productDescription": "A hearty lentil stew cooked with butter, cream, and a mix of spices, known for its smooth, creamy texture and rich flavor.",
+      "price": 150,
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "productName": "Gulab Jamun",
+      "productDescription": "Soft, melt-in-your-mouth milk-based dumplings soaked in a sweet and fragrant rose-flavored syrup.",
+      "price": 80,
+      "rating": 5.0
+    }
+   ]
