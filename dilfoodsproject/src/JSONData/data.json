@@ -43,7 +43,7 @@
     "id": 6,
     "productName": "Pizza",
     "productDescription": "A classic Italian dish made with a crispy crust, tomato sauce, and melted cheese.",
-    "price": 12.99,
+    "price": 120.99,
     "rating": 4.5,
     "image": "pizza.jpeg"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "productName": "Pasta",
     "productDescription": "A versatile dish made with noodles and a variety of sauces.",
-    "price": 9.99,
+    "price": 90.99,
     "rating": 4.2,
     "image": "pasta.jpeg"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "productName": "Salad",
     "productDescription": "A healthy and refreshing mix of greens, vegetables, and dressing.",
-    "price": 7.99,
+    "price": 70.99,
     "rating": 4.0,
     "image": "salad.jpeg"
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "productName": "Sushi",
     "productDescription": "Japanese dish of vinegared rice topped with seafood or vegetables.",
-    "price": 14.99,
+    "price": 140.99,
     "rating": 4.8,
     "image": "sushi.jpeg"
   },
@@ -75,7 +75,7 @@
     "id": 10,
     "productName": "Burger",
     "productDescription": "A juicy patty of ground meat sandwiched between a bun.",
-    "price": 8.99,
+    "price": 80.99,
     "rating": 4.3,
     "image": "burger.jpg"
   }

@@ -26,7 +26,7 @@ function PlacedAlert() {
           </div>
         </div>
         <h3 class="my-4 text-center text-3xl font-semibold text-gray-700">
-          Congratuation!!!
+          Congratulation!!!
         </h3>
         <p class="w-[230px] text-center font-normal text-gray-600">
           Your order have been taken and is being attended to

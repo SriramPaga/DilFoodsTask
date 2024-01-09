@@ -109,7 +109,7 @@ function OrderSummary() {
             class="px-4 py-1 text-white font-light tracking-wider bg-gray-900 rounded"
             type="submit"
           >
-            $3.00
+            ₹3.00
           </button>
         </div>
       </form>

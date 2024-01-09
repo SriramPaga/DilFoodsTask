@@ -8,7 +8,7 @@ import Data from '../JSONData/data.json';
 
 function CheckoutView() {
   const { cart } = useContext(FoodContext);
-  //   const [grandtotal, setGrandTotal] = useState();
+
   let grandTotal = 0;
   let totalPrice = 0;
   const shippingCost = 5;

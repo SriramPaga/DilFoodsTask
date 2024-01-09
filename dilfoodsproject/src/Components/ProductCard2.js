@@ -34,7 +34,7 @@ function ProductCard2(props) {
               <div class="mt-2 mb-5 flex items-center justify-between ">
                 <p>
                   <span class="text-3xl font-bold text-slate-900">
-                    ${itemData.price}
+                    ₹{itemData.price}
                   </span>
                 </p>
               </div>

@@ -35,14 +35,14 @@ function CartProduct(props) {
             <p class="mt-1 text-xs text-gray-700">
               {foodData.productDescription}
             </p>
-            <h3 class="text-lg font-bold text-gray-900">${foodData.price}</h3>
+            <h3 class="text-lg font-bold text-gray-900">₹{foodData.price}</h3>
           </div>
           <div class="mt-0 flex justify-between sm:space-y-6 sm:mt-0 sm:block sm:space-x-6">
             <div class="flex items-center border-gray-100">
               <span class="py-1 px-3.5 "> X {item.quantity} </span>
             </div>
             <div class="flex items-center space-x-4">
-              <p class="text-lg font-bold">${foodData.price * item.quantity}</p>
+              <p class="text-lg font-bold">₹{foodData.price * item.quantity}</p>
             </div>
           </div>
         </div>

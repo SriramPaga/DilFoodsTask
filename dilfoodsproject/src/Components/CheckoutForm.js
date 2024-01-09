@@ -215,7 +215,7 @@ function CheckoutForm(props) {
               // type="submit"
               // onClick={handleOrderPlaced}
             >
-              Pay ${props.grandtotal}
+              Pay ₹{props.grandtotal.toFixed(2)}
             </button>
           </Link>
         </div>

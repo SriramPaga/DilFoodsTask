@@ -13,7 +13,10 @@ function CartView(props) {
     <>
       <h1 class="mb-10 text-center text-2xl font-bold">Cart Empty</h1>
       <div className="container flex justify-center ">
-        <img src={EmptyCartImg} className="sm:h-40 lg:h-96 w-auto rounded-lg mb-5 " />
+        <img
+          src={EmptyCartImg}
+          className="sm:h-40 lg:h-96 w-auto rounded-lg mb-5 "
+        />
       </div>
       {/* Image taken from pinterest */}
     </>
@@ -52,17 +55,17 @@ function CartView(props) {
         <div class="mt-6 h-full rounded-lg border bg-white p-6 shadow-md md:mt-0 md:w-1/3">
           <div class="mb-2 flex justify-between">
             <p class="text-gray-700">Subtotal</p>
-            <p class="text-gray-700">${totalPrice}</p>
+            <p class="text-gray-700">₹{totalPrice.toFixed(2)}</p>
           </div>
           <div class="flex justify-between">
             <p class="text-gray-700">Shipping</p>
-            <p class="text-gray-700">${shippingCost}</p>
+            <p class="text-gray-700">₹{shippingCost}</p>
           </div>
           <hr class="my-4" />
           <div class="flex justify-between">
             <p class="text-lg font-bold">Total</p>
             <div class="">
-              <p class="mb-1 text-lg font-bold">${grandTotal} USD</p>
+              <p class="mb-1 text-lg font-bold">₹{grandTotal.toFixed(2)}</p>
               {/* <p class="text-sm text-gray-700">including VAT</p> */}
             </div>
           </div>
