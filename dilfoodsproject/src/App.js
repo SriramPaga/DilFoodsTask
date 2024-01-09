@@ -5,11 +5,10 @@ import NavHeader from './Components/NavHeader';
 import ProductsPage from './Views/ProductsPage';
 import LandingPage from './Views/LandingPage';
 import CartView from './Views/CartView';
-import {createContext, useState } from 'react';
+import { createContext, useState } from 'react';
 import CheckoutView from './Views/CheckoutView';
-
-
-
+import Footer from './Components/Footer';
+import PlacedAlert from './Components/PlacedAlert';
 export const FoodContext = createContext();
 function App() {
   const [cart, setCart] = useState([]);
@@ -41,19 +40,35 @@ function App() {
       setCart([...cart, tempDict]);
     }
   }
+  function handleDeleteProduct(prodId) {
+    console.log("handle function iin  App js" + prodId)
+    let newCart = cart.map((item, index) => {
+      if (item.id === prodId) {
+        return {};
+      }
+      return item;
+    });
+    newCart = newCart.filter((item) => Object.keys(item).length > 0);
+    setCart(newCart);
+  }
+
   return (
     <>
-      <FoodContext.Provider value={{ cart, cartAddition }}>
+      <FoodContext.Provider value={{ cart, cartAddition, handleDeleteProduct }}>
         <BrowserRouter>
           <NavHeader />
           <Routes>
+           
             <Route path="/" element={<LandingPage />} />
             <Route path="/Home" element={<LandingPage />} />
             <Route path="/Products" element={<ProductsPage />} />
             <Route path="/cart" element={<CartView />} />
-            <Route path="/checkout" element={<CheckoutView />} />
-            {/* <Route path="/payment" element={<QuiltedImageList />} /> */}
+           
+            <Route path="/Payment" element={<CheckoutView />} />
+            <Route path="/OrderPlaced" element={<PlacedAlert />} />
+          
           </Routes>
+          <Footer />
         </BrowserRouter>
       </FoodContext.Provider>
     </>
