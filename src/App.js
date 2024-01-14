@@ -55,7 +55,7 @@ function App() {
   return (
     <>
       <FoodContext.Provider value={{ cart, cartAddition, handleDeleteProduct }}>
-        <BrowserRouter basename='DilFoodsTask/'>
+        <BrowserRouter basename='/DilFoodsTask'>
           <NavHeader />
           <Routes>
            
